@@ -1,8 +1,8 @@
 <?php
 
-require_once(__DIR__.'/libs/simple_html_dom.php');
-require_once(__DIR__.'/Torrent.php');
-
+require_once(APP_ROOT.'/libs/simple_html_dom.php');
+require_once(APP_ROOT.'/libs/Torrent.class.php');
+echo "lol";
 class	Parser
 {
     private		$html;
